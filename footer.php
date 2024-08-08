@@ -7,29 +7,16 @@
                <tbody>
                   <tr>
                      <td>
-                        <h2>Read Next</h2>
-                           <ul>
-                             <li><a href="/">Home</a></li>
-                             <li><a href="/about-us/">About Us</a></li>
-                             <li><a href="/courses/what-to-expect/">Courses</a></li>
-                             <li><a href="/how-to-apply/">How to Apply</a></li>
-                             <li><a target="_blank" href="https://dhamma.org">International Website</a></li>
-                           </ul>
-
-                     </td>
-                     <td>
                         <a id="page-footer-schedule-link" target="_blank" href="<?php echo get_theme_mod( 'dhamma_schedule_link'); ?>">
                            <h2>View Schedule and Apply</h2>
                            <img id="footer-schedule" alt="Schedule" src="<?php echo get_template_directory_uri();?>/images/footer-schedule6.png">
                         </a>
                      </td>
                      <td>
-                        <h2><a href='/contact/'>Contact Us</a></h2>
-                        <a href="mailto:info@ny.us.dhamma.org">info@ny.us.dhamma.org</a><br>
+                        <h2><a href='/contact/' style="text-decoration:none;">Contact Us</a></h2>
+                        <a href="mailto:info-boston@dhara.dhamma.org">info-boston@dhara.dhamma.org</a><br>
                         <br>
-			<h2><a style="text-decoration: none" href="/contact-us/">Mailing Address</a></h2>
-			<a href="https://www.google.com/maps/place/247+W+38th+St+10th+Floor,+New+York,+NY+10018/@40.754253,-73.990294,16z/data=!4m5!3m4!1s0x89c259aced2e31df:0xfaf6ba277635b7a9!8m2!3d40.7543553!4d-73.9904178?hl=en" target="_blank">247 West 38th Street #1003<br />
-						New York, NY 10018</a>
+			617-444-9355
 
                      </td>
                   </tr>

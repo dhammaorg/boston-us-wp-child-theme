@@ -51,7 +51,7 @@
                      <div id='search-login-bar-logout-link'><a href='<?php global $wp; echo wp_logout_url( url_after_logout ( $wp ) ); ?>'>Logout</a></div>
                   </div>
                <?php } else { ?>
-                  <div id="login-form-cell" class="logged-out">
+                  <div id="login-form-cell" class="logged-out ">
                   <?php  
                      $args = array ( 
                         'id_remember' => 'search-login-bar-remember-me',
@@ -60,8 +60,10 @@
                      );
 
                      global $wp;
-                     if ( !prefers_os_menu ( $wp ) ) $args [ 'redirect' ] = site_url ( "/os/" );
-
+	
+                     if ( prefers_os_menu2 ( $wp ) ) {
+						 $args [ 'redirect' ] = site_url ( "/os/" );
+					 }
                      wp_login_form ( $args );
                   ?>
                   </div>
@@ -148,7 +150,7 @@
                   'value_username' => 'oldstudent',
                   'value_remember' => true,
                ); 
-               if ( !prefers_os_menu ( $wp ) ) $args [ 'redirect' ] = site_url ( "/os/" );
+               if ( !prefers_os_menu2 ( $wp ) ) $args [ 'redirect' ] = site_url ( "/os/" );
                wp_login_form( $args ); 
             ?> 
          <?php } ?>
