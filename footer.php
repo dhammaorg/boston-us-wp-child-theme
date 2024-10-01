@@ -14,7 +14,7 @@
                      </td>
                      <td>
                         <h2><a href='/contact/' style="text-decoration:none;">Contact Us</a></h2>
-                        <a href="mailto:info-boston@dhara.dhamma.org">info-boston@dhara.dhamma.org</a><br>
+                        <a href="mailto:webmaster@boston.us.dhamma.org">webmaster@boston.us.dhamma.org</a><br>
                         <br>
 			617-444-9355
 
